@@ -1,12 +1,14 @@
 'use client'
 
 import Link from 'next/link'
-import { ShoppingCart, Plus, Edit2, Trash2 } from 'lucide-react'
+import {Plus, Edit2, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 
-import { IProduct, Product, PRODUCTS } from '@/lib/types'
+
 
 import { toast } from 'sonner'
+import { PRODUCTS, Product } from '@/lib/products'
+import { IProduct } from '@/lib/types'
 
 
 
@@ -98,24 +100,8 @@ export default function AdminDashboard() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Header */}
-      <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="text-2xl font-bold text-primary">⚡</div>
-              <span className="text-xl font-bold text-foreground">Mythic Legends</span>
-            </Link>
-            <div className="text-sm font-semibold text-primary">Admin Dashboard</div>
-            <Link
-              href="/shop"
-              className="text-sm text-foreground/80 hover:text-primary transition"
-            >
-              Back to Store
-            </Link>
-          </div>
-        </div>
-      </header>
+  
+      
 
       {/* Dashboard Content */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
