@@ -4,7 +4,7 @@
 import Link from 'next/link'
 
 
-const hero = () => {
+const Hero = () => {
 
   
 
@@ -123,4 +123,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero
