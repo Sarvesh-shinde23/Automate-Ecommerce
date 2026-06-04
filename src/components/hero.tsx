@@ -1,5 +1,5 @@
 "use client"
-import {Search, ShoppingCart } from 'lucide-react'
+
 
 import Link from 'next/link'
 
