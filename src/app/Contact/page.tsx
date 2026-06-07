@@ -1,7 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { ShoppingCart, Mail, Phone, MapPin } from "lucide-react";
+import {  Mail, Phone, MapPin } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {

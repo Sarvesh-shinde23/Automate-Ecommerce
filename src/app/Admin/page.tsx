@@ -1,14 +1,14 @@
 'use client'
 
-import Link from 'next/link'
+
 import {Plus, Edit2, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 
 
 
 import { toast } from 'sonner'
-import { PRODUCTS, Product } from '@/lib/products'
-import { IProduct } from '@/lib/types'
+
+import { IProduct, Product, PRODUCTS } from '@/lib/types'
 
 
 

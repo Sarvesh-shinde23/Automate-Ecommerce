@@ -1,10 +1,11 @@
 "use client";
 
-import Link from "next/link";
+
+import { PRODUCTS } from "@/lib/types";
 import { HelpCircle } from "lucide-react";
 import { useState } from "react";
 
-import { PRODUCTS } from "@/lib/products";
+
 
 const ISSUE_TYPES = [
   "Product Damaged",

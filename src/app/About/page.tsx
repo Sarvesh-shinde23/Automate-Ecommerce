@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import { ShoppingCart } from 'lucide-react'
 
 export default function About() {
   return (

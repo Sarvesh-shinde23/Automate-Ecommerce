@@ -3,10 +3,11 @@
 import Link from 'next/link'
 import { Search, ShoppingCart } from 'lucide-react'
 import { useState } from 'react'
-import { PRODUCTS, CATEGORIES } from '@/lib/products'
+
 import { useCart } from '@/lib/cart-context'
-import { Header } from '@/components/Header'
+
 import { useSearchParams } from "next/navigation";
+import { CATEGORIES, PRODUCTS } from '@/lib/types'
 
 
 
