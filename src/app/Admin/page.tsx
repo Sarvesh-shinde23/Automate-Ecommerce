@@ -1,6 +1,7 @@
 'use client'
 
 
+import { IProduct, Product, PRODUCTS } from '@/lib/types'
 import {Plus, Edit2, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 
@@ -8,7 +9,7 @@ import { useState } from 'react'
 
 import { toast } from 'sonner'
 
-import { IProduct, Product, PRODUCTS } from '@/lib/types'
+
 
 
 
