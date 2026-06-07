@@ -4,7 +4,7 @@
 import Link from 'next/link'
 
 
-const Hero = () => {
+const HeroPage = () => {
 
   
 
@@ -12,7 +12,6 @@ const Hero = () => {
     <div className="min-h-screen bg-background text-foreground">
    
 
-      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-background via-background to-card py-20 md:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -123,4 +122,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroPage

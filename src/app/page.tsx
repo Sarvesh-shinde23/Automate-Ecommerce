@@ -1,12 +1,11 @@
-import Hero from "@/components/Hero"
-
+import HeroPage from '@/components/HeroPage'
 
 
 const page = () => {
   return (
-    <>
-    <Hero/>
-    </>
+<>
+<HeroPage/>
+</>
   )
 }
 
